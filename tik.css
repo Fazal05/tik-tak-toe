@@ -1,19 +1,64 @@
 *{
     margin: 0;
 }
+
 button{
     height:70px;
     width:70px;
-    background-color: rgb(163, 161, 161);
-    border:5px solid rgb(31, 30, 30);
+    background-color: rgb(250, 246, 246);
+    border-radius: 10px;
+    border:0px solid rgb(223, 219, 219);
+    box-shadow:1px 1px 3px rgb(200, 198, 198),
+    1px 1px 3px rgb(198, 197, 197);
     cursor:pointer;
     margin:2px 0px;
 }
-.max{
+.score{
+    height:10vh;
+    width:20vw;
+   gap:40px;
+   
+    display:flex;
+    flex-direction:row;
+    
+   
+}
+.rds{
+    display:flex;
+   
+    height:60px;
+    width:80px;
+    margin:10px 1vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div.red {
+    color:rgba(237, 13, 13, 0.781);
+}
+
+div.blue{
+    color:rgba(0, 0, 255, 0.704);
+}
+div.draw {
+    color:rgba(34, 44, 80, 0.837);
+}
+h2{
+    margin:3px 0px;
+
+}
+
+.main{
     height:225px;
     width:225px;
-    background-color: grey;
+    margin :10px 0px 0px  0px;
+    background-color: rgb(237, 234, 234);
     padding: 30px 40px;
+    border-radius:10px;
     display:block;
 }
 .master{
@@ -23,6 +68,10 @@ button{
     height:100vh;
     width:100vw;
     flex-direction: column;
+    
+}
+.button{
+    display:flex;
 }
 #text{
     height:40px;
@@ -30,6 +79,42 @@ button{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(158, 155, 155);
+    background-color: rgb(249, 246, 246);
+    border:1px solid rgb(209, 208, 208);
+    border-radius:30px;
+    color:rgb(131, 129, 129);
     margin:20px;
+    font-size: 15px;
+    font-weight:100;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#next{
+    height:35px;
+    width:80px;
+    border: 0px;
+    box-shadow: 1px 1px 3px rgb(216, 214, 214);
+    border-radius:10px;
+    border:1px solid rgb(224, 219, 219);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight:100;
+
+}
+
+#next:active{
+    background-color: rgb(208, 203, 203);
+}
+@media screen and (max-width:431px){
+    .rds{
+        margin:0px 15px;
+        
+        left:0px;
+    }
+    .score{
+        
+        justify-content:center;
+        align-items:center;
+    }
+   
 }
