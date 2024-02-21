@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 *{
     margin: 0;
 }
@@ -11,7 +12,10 @@ button{
     box-shadow:1px 1px 3px rgb(200, 198, 198),
     1px 1px 3px rgb(198, 197, 197);
     cursor:pointer;
+    font-family: "Fredoka", sans-serif;
     margin:2px 0px;
+    color:transparent;
+    font-size:45px;
 }
 .score{
     height:10vh;
@@ -28,7 +32,7 @@ button{
    
     height:60px;
     width:80px;
-    margin:10px 1vw;
+    margin:10px 0.5vw;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -95,10 +99,12 @@ h2{
     border: 0px;
     box-shadow: 1px 1px 3px rgb(216, 214, 214);
     border-radius:10px;
+    color:rgb(17, 17, 17);
+    font-family: "Fredoka", sans-serif;
     border:1px solid rgb(224, 219, 219);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
     font-size: 15px;
-    font-weight:100;
+    font-weight:400;
 
 }
 
